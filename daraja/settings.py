@@ -56,7 +56,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            BASE_DIR / 'templates/base'
+            BASE_DIR / 'templates'
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -125,4 +125,8 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+MPESA_CONSUMER_KEY = 'VVMevfeYf3aVSRyistUXyr4OYkHHtuGv'
+MPESA_CONSUMER_SECRET = 'EaKNBHDMU1AvVrvo'
+MPESA_SHORTCODE = '8835140'
+MPESA_PASSWORD = 'your_base64_encoded_password'
 
